@@ -17,3 +17,6 @@ Until in is packaged in npm:
 - Clone/Download the source code
 - In the project root folder `npm install`
 - `node src/parse -s [path_to_file]`
+
+
+----
