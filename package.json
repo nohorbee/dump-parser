@@ -1,0 +1,34 @@
+{
+  "name": "dump-parser",
+  "version": "1.0.0",
+  "description": "This CLI parses a PHP var_dump output so it can be used to generate some code",
+  "main": "src/parse.js",
+  "bin": {
+    "parse": "src/parse.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "commander": "^2.9.0",
+    "fs.extra": "^1.3.2",
+    "string-builder": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nohorbee/dump-parser.git"
+  },
+  "keywords": [
+    "php",
+    "parser",
+    "utils",
+    "coder"
+  ],
+  "author": "nohorbee",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nohorbee/dump-parser/issues"
+  },
+  "homepage": "https://github.com/nohorbee/dump-parser#readme"
+}
