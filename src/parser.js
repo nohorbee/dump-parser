@@ -100,7 +100,6 @@ Parser.prototype.startsSubstructure = function(line) {
 }
 
 Parser.prototype.buildObject = function(line) {
-
   if(!(obj = this.parseObject(line))) {
     if(!(obj = this.parseArray(line))) {
       throw new ParserException("Can't parse as new object or array. Original line: " + line);
